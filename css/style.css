@@ -19,3 +19,13 @@ body{
   background-size: cover;
   position: relative;
 }
+
+#content {
+  position: relative;
+  margin: 10px;
+  max-width: 500px;
+  padding: 55px;
+  background-color: #ad976d;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
