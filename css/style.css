@@ -101,23 +101,12 @@ input[type=email]:focus {
     font-size: 1.3em;
   }
   h1 {
-    padding: 0.5em;
+    padding-right: 0.5em;
   }
   p {
     padding-bottom: 0.6em;
   }
   #content {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-top: 1.3em;
   }
-  input[type=submit] {
-  color: white;
-  background-color: red;
-  padding: 10px 10px;
-  border: none;
-  cursor: pointer;
-  width: 30%;
-  opacity: 0.9;
-  font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
-}
 }
