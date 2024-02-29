@@ -107,6 +107,7 @@ input[type=email]:focus {
     padding-bottom: 0.6em;
   }
   #content {
-    padding-top: 1.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
