@@ -38,3 +38,8 @@ h1{
   color: #FFFFFF;
   display: inline-block;
 }
+
+p{
+  margin-bottom: 1em;
+  font-size: 1em;
+}
