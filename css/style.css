@@ -60,6 +60,8 @@ input[type=email] {
 }
 
 input[type=submit] {
+  color: white;
+  background-color: red;
   padding: 10px 10px;
   border: none;
   cursor: pointer;
