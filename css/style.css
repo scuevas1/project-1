@@ -10,7 +10,7 @@ label {
 }
 
 body{
-  background-image: url("/image/PRclassroom.jpg");
+  background-image: url("../image/PRclassroom.jpg");
   min-height: 380px;
 
   /* Center and scale the image nicely */
