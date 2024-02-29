@@ -109,4 +109,14 @@ input[type=email]:focus {
   #content {
     padding-top: 1.3em;
   }
+  input[type=submit] {
+  color: white;
+  background-color: red;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+  font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
+}
 }
