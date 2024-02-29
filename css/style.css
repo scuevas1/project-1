@@ -1,8 +1,8 @@
 html {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.182em;
-  padding: 1.182em;
   text-rendering: optimizeLegibility;
+  color: #FFFFFF;
 }
 
 label {
@@ -29,8 +29,8 @@ body{
     padding: 0.5em;
   }
 }
-/* ===== LAYOUT STYLES ====== */
 
+/* ===== LAYOUT STYLES ====== */
 #content {
   position: relative;
   margin: 10px;
@@ -43,8 +43,8 @@ body{
 
 h1{
   text-align: center;
-  line-height: 1;  
-  font-family: "Rubik Mono One", "Merriweather", "Roboto", system-ui;
+  line-height: 1;
+	font-family: "Rubik Mono One", "Merriweather", "Roboto", system-ui;
   font-size: 50px;
   color: #FFFFFF;
   display: inline-block;
