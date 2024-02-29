@@ -68,3 +68,7 @@ input[type=submit] {
   width: 40%;
   opacity: 0.9;
 }
+
+input[type=submit]:hover {
+  background-color: #6adbf7;
+}
