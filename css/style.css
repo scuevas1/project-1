@@ -8,3 +8,14 @@ html {
 label {
   display: block;
 }
+
+body{
+  background-image: url("../img/PRclassroom.JPG");
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
