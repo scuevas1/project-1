@@ -20,6 +20,17 @@ body{
   position: relative;
 }
 
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  textarea,
+  select {
+    padding: 0.5em;
+  }
+}
+/* ===== LAYOUT STYLES ====== */
+
 #content {
   position: relative;
   margin: 10px;
@@ -79,4 +90,20 @@ input[type=text]:focus {
 
 input[type=email]:focus {
   background-color: #6adbf7;
+}
+/* ===== STATE STYLES ======= */
+@media screen and (min-width: 620px) {
+  body {
+    margin: 4%;
+    font-size: 1.3em;
+  }
+  h1 {
+    padding: 0.75em;
+  }
+  p {
+    padding-bottom: 0.6em;
+  }
+  #content {
+    padding-top: 1.3em;
+  }
 }
