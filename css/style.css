@@ -72,6 +72,14 @@ input[type=email] {
   font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
 }
 
+input[type=tel] {
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #f00000;
+  border-radius: 4px;
+  font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
+}
+
 input[type=submit] {
   color: white;
   background-color: red;
@@ -94,6 +102,10 @@ input[type=text]:focus {
 input[type=email]:focus {
   background-color: #6adbf7;
 }
+
+input[type=tel]:focus {
+  background-color: #6adbf7;
+}
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 620px) {
   body {
@@ -102,11 +114,12 @@ input[type=email]:focus {
   }
   h1 {
     padding: 0.75em;
+    padding-top: 0.5em;
   }
   p {
     padding-bottom: 0.6em;
   }
   #content {
-    padding-top: 1.3em;
+    padding-top: 1em;
   }
 }
