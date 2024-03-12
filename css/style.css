@@ -86,7 +86,7 @@ input[type=submit] {
   padding: 10px 10px;
   border: none;
   cursor: pointer;
-  width: 40%;
+  width: 65%;
   opacity: 0.9;
   font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
 }
