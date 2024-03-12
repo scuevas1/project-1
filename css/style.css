@@ -54,6 +54,7 @@ p{
   margin-bottom: 1em;
   font-family: "IBM Plex Serif", "Merriweather", "Roboto", system-ui;
   font-size: 1em;
+  line-height: 1;
 }
 
 input[type=text] {
