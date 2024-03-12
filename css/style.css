@@ -123,6 +123,11 @@ input[type=tel]:focus {
   #content {
     padding-top: 1em;
   }
+  input[type="text"],
+  input[type="submit"], 
+  input[type="tel"],{
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 990px){
